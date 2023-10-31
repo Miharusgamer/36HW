@@ -24,7 +24,7 @@ HEADERS += \
     InputChecker.h \
     LoginWindow.h \
     RegistrationWindow.h \
-    SHA1.hpp \
+    SHA1.cpp \
     SHA1Wrapper.h \
     ScreenController.h
 
