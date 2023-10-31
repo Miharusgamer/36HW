@@ -1,6 +1,6 @@
 #include "SHA1Wrapper.h"
 #include <memory>
-#include "SHA1.hpp"
+#include "SHA1.cpp"
 
 std::string sha_1::hash(const std::string& value)
 {
