@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScreenController</class>
+ <widget class="QDialog" name="ScreenController">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="LoginWindow" name="loginWindow"/>
+     <widget class="RegistrationWindow" name="registrationWindow"/>
+     <widget class="ChatWindow" name="chatWindow"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>LoginWindow</class>
+   <extends>QWidget</extends>
+   <header>LoginWindow.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RegistrationWindow</class>
+   <extends>QWidget</extends>
+   <header>RegistrationWindow.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ChatWindow</class>
+   <extends>QWidget</extends>
+   <header>ChatWindow.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
